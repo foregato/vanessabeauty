@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.vanessabeautyspa.com.br/sitemap.xml

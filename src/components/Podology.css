@@ -1,0 +1,11 @@
+.podology__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+@media (max-width: 700px) {
+  .podology__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+.hairdresser__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.hairdresser__content p {
+  color: #444;
+  margin: var(--space-sm) 0 var(--space-md);
+  max-width: 480px;
+}
+
+.hairdresser__image img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  box-shadow: var(--shadow-soft);
+  background: var(--color-white);
+}
+
+@media (max-width: 900px) {
+  .hairdresser__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hairdresser__content p { margin-left: auto; margin-right: auto; }
+}

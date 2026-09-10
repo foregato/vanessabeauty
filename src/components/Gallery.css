@@ -1,0 +1,24 @@
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+}
+
+.gallery__item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background: var(--color-light-gray);
+  transition: transform var(--transition-base);
+}
+
+.gallery__item:hover img {
+  transform: scale(1.03);
+}
+
+@media (max-width: 700px) {
+  .gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
