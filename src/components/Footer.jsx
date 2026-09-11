@@ -1,4 +1,4 @@
-import logo from '../assets/logo.jpeg';
+import logo from '../assets/logo.png';
 import { empresa, contato, navLinks } from '../data/siteData.js';
 import './Footer.css';
 

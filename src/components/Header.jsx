@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { empresa, navLinks } from '../data/siteData.js';
-import logo from '../assets/logo.jpeg';
+import logo from '../assets/logo.png';
 import Icon from './Icon.jsx';
 import './Header.css';
 
